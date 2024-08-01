@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36 Edg/127.0.0.0" version="24.7.6">
   <diagram name="第 1 页" id="Tw9XruLOlgb9xOFBWqXU">
-    <mxGraphModel dx="810" dy="451" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+    <mxGraphModel dx="1476" dy="822" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -11,7 +11,7 @@
           <mxGeometry x="160" y="130" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="bau7W-29Jf__F3Vt7hQ--4" value="" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;textShadow=0;fillColor=#ffe6cc;strokeColor=#d79b00;opacity=70;" vertex="1" parent="1">
-          <mxGeometry x="90" y="470" width="1130" height="330" as="geometry" />
+          <mxGeometry x="90" y="460" width="1130" height="330" as="geometry" />
         </mxCell>
         <mxCell id="bau7W-29Jf__F3Vt7hQ--5" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="bau7W-29Jf__F3Vt7hQ--2">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -394,6 +394,9 @@
         <mxCell id="bau7W-29Jf__F3Vt7hQ--104" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="325" y="600" width="30" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="bau7W-29Jf__F3Vt7hQ--134" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bau7W-29Jf__F3Vt7hQ--105" target="bau7W-29Jf__F3Vt7hQ--103">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="bau7W-29Jf__F3Vt7hQ--105" value="transformer&lt;div&gt;block&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;horizontal=0;verticalAlign=middle;textDirection=ltr;align=center;" vertex="1" parent="1">
           <mxGeometry x="320" y="620" width="40" height="40" as="geometry" />
         </mxCell>
@@ -444,6 +447,24 @@
             <mxPoint x="330" y="600" as="sourcePoint" />
             <mxPoint x="458" y="589" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="bau7W-29Jf__F3Vt7hQ--135" value="image&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;embedding&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;horizontal=0;verticalAlign=middle;textDirection=ltr;align=center;" vertex="1" parent="1">
+          <mxGeometry x="465" y="143.75" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bau7W-29Jf__F3Vt7hQ--136" value="image&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;embedding&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;horizontal=0;verticalAlign=middle;textDirection=ltr;align=center;" vertex="1" parent="1">
+          <mxGeometry x="465" y="444.38" width="60" height="396.25" as="geometry" />
+        </mxCell>
+        <mxCell id="bau7W-29Jf__F3Vt7hQ--137" value="sparse&amp;nbsp;&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;embedding&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;horizontal=0;verticalAlign=middle;textDirection=ltr;align=center;" vertex="1" parent="1">
+          <mxGeometry x="845" y="250" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bau7W-29Jf__F3Vt7hQ--138" value="sparse&amp;nbsp;&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;embedding&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;horizontal=0;verticalAlign=middle;textDirection=ltr;align=center;" vertex="1" parent="1">
+          <mxGeometry x="845" y="505" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bau7W-29Jf__F3Vt7hQ--140" value="iou prediction" style="text;whiteSpace=wrap;html=1;horizontal=0;verticalAlign=middle;textDirection=ltr;align=center;" vertex="1" parent="1">
+          <mxGeometry x="985" y="116.88" width="60" height="86.25" as="geometry" />
+        </mxCell>
+        <mxCell id="bau7W-29Jf__F3Vt7hQ--141" value="iou prediction" style="text;whiteSpace=wrap;html=1;horizontal=0;verticalAlign=middle;textDirection=ltr;align=center;" vertex="1" parent="1">
+          <mxGeometry x="985" y="600" width="60" height="86.25" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
